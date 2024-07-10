@@ -31,15 +31,15 @@ This project involves analyzing Instagram pages of competitors based on various 
    ```
    cd competitor-analysis-instagram
    ```
-2. Ensure your data (`instagram_data.csv`) is prepared and placed in the project directory.
+2. Ensure your data (`instagram-competitors.csv`) is prepared and placed in the project directory.
 
 3. Run the analysis script:
    ```
-   python analyze_instagram_data.py
+   python marketing_data_analysis.ipynb
    ```
 
 ## Data Collection
-- The data (`instagram_data.csv`) should include columns such as:
+- The data (`instagram-competitors.csv`) should include columns such as:
   - `Name`: Instagram page name.
   - `Followers`: Number of followers.
   - `Posts`: Number of posts.
